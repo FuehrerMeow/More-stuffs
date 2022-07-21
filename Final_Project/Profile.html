@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="steps.css">
+
+</head>
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: blue;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: blue;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: blue;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Profile <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content"></div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Find A Meeting <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#In-Person">In-Person</a>
+      <a href="#Virtual">Virtual</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Resources <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://americanaddictioncenters.org/intensive-outpatient-programs">IOP Services</a>
+      <a href="https://www.alcoholrehabguide.org/treatment/counseling/">Counseling Services</a>
+      <a href="https://www.aa.org/aa-gso">A.A. GSO Information</a>
+      <a href="https://www.alcohol.org/treatment/hotline/">Emergency Hotlines</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Materials At A Glance <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="http://localhost:63342/Final_Project/Twelve_Steps_And_Traditions.html?_ijt=fdr0uo33umbeg936hstvuqa0r3&_ij_reload=RELOAD_ON_SAVE">Twelve Steps And Traditions</a>
+      <a href="http://localhost:63342/Final_Project/12_Step_Worksheets.html?_ijt=l1jqlljsac27m3f181gb1r65uo&_ij_reload=RELOAD_ON_SAVE">12 Step Worksheets</a>
+      <a href="">Inventory Worksheet</a>
+    </div>
+  </div>
+</div>
+
+
+
+<body>
+<h1>Profile</h1>
+
+
+</body>
+
+</html>
